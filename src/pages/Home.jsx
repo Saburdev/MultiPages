@@ -1,72 +1,26 @@
 import React from 'react'
-import { NavLink} from 'react-router-dom'
-import { VscHome } from 'react-icons/vsc'
-import { FaRegLightbulb } from 'react-icons/fa'
+import { BrandName } from '../components/BrandName'
+import { Button } from '../components/Button'
+import { NavBar } from '../components/NavBar'
 
 export const Home = () => {
     return (
         <div className=''>
-            <h1 className="mt-12 ">Ololade.</h1>
-            <div className="">
-                <p className="">
+            <BrandName />
+            <div className="ml-[226px] mt-[228px]">
+                <p className="bio text-6xl w-[697px] text-white">
                     Hello!👋🏻
-                    My name is Ololade
-                    I’m a Product Designer
+                    My name is Sabur
+                    I’m a Front-end developer
                 </p>
-                <p className="">
+                <p className="desc mt-[29px] mb-[109px] text-white">
                     Let me help you grow your
                     business and make your product look pretty while at it
                 </p>
-                <button className="">Say Hello</button>
+                <Button />
             </div>
-            <footer className="">
-                <div class="navbar bg-base-900">
-                    <ul className="">
-                        <li className="">
-                            <NavLink to={"/"}>
-                                <VscHome />
-                            </NavLink>
-                        </li>
-                        <li className="">
-                            <NavLink to={""}>
-                                <FaRegLightbulb />
-                            </NavLink>
-                        </li>
-                        <li className="">
-                            <NavLink to={""}>
-
-                            </NavLink >
-                        </li>
-                        <li className="">
-                            <NavLink to={""}>
-
-                            </NavLink>
-                        </li>
-                        <li className="">
-                            <NavLink to={""}>
-
-                            </NavLink>
-                        </li>
-                        <li className="">
-                            <NavLink to={""}>
-
-                            </NavLink>
-                        </li>
-                        <li className="">
-                            <NavLink to={""}>
-
-                            </NavLink>
-                        </li>
-                        <li className="">
-                            <NavLink to={""}>
-
-                            </NavLink>
-                        </li>
-                        <li className="">
-                            <NavLink to={""}></NavLink>
-                        </li>
-                    </ul>
-                </div>
+            <footer className="mt-[126px] mb-[55px] ml-[142px] mr-[118px]">
+                <NavBar />
             </footer>
         </div>
     )
