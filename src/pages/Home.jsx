@@ -2,6 +2,8 @@ import React from 'react'
 import { BrandName } from '../components/BrandName'
 import { Button } from '../components/Button'
 import { NavBar } from '../components/NavBar'
+import { Projects } from '../pages/Projects'
+
 
 export const Home = () => {
     return (
@@ -9,7 +11,7 @@ export const Home = () => {
             <BrandName />
             <div className="ml-[226px] mt-[228px]">
                 <p className="bio text-6xl w-[697px] text-white">
-                    Hello!👋🏻
+                    Hello! &#128075;
                     My name is Sabur
                     I’m a Front-end developer
                 </p>
